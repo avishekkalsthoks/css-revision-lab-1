@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C Code and Output</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        .code {
+            background-color: #282c34;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: 'Courier New', Courier, monospace;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            margin-bottom: 20px;
+        }
+        .output-image {
+            text-align: center;
+        }
+        .output-image img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Simple C Code and Output</h1>
+
+    <div class="code">
+        <h3>C Code: Hello World</h3>
+        <pre>
+#include &lt;stdio.h&gt;
+
+int main() {
+    printf("Hello, World!\\n");
+    return 0;
+}
+        </pre>
+    </div>
+
+    <div class="output-image">
+        <h3>Output Image: Hello World</h3>
+        <img src="hello.png" alt="C Code Output Image">
+    </div>
+
+    <div class="code">
+        <h3>C Code: Even or Odd Check</h3>
+        <pre>
+#include &lt;stdio.h&gt;
+
+int main() {
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if (num % 2 == 0) {
+        printf("%d is even.\\n", num);
+    } else {
+        printf("%d is odd.\\n", num);
+    }
+
+    return 0;
+}
+        </pre>
+    </div>
+
+    <div class="output-image">
+        <h3>Output Image: Even or Odd</h3>
+        <img src="odd or even.png" alt="C Code Output Image">
+    </div>
+
+    <div class="code">
+        <h3>C Code: Factorial Calculation</h3>
+        <pre>
+#include &lt;stdio.h&gt;
+
+int main() {
+    int num, i;
+    long long fact = 1;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    for(i = 1; i <= num; i++) {
+        fact *= i;
+    }
+
+    printf("Factorial of %d = %lld\\n", num, fact);
+    return 0;
+}
+        </pre>
+    </div>
+
+    <div class="output-image">
+        <h3>Output Image: Factorial Calculation</h3>
+        <img src="factorial.png" alt="C Code Output Image">
+    </div>
+
+</div>
+
+</body>
+</html
